@@ -1,0 +1,48 @@
+git clone https://github.com/mdeeps18/cnn_classifier.git
+cd cnn_classifier/
+mkdir template.py
+************path testing in terminal********
+$ python
+Python 3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from pathlib import path
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: cannot import name 'path' from 'pathlib' (C:\ProgramData\Anaconda3\Lib\pathlib.py)
+>>> from pathlin import Path
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pathlin'
+>>> from pathlib import Path
+>>> path='config/configuration.py'
+>>> Path(path)
+WindowsPath('config/configuration.py')
+>>> import os     
+>>> os.path.split(path)    
+('config', 'configuration.py')
+os.path.getsize('README.md') 
+*******************************************
+troubleshhot in git
+**fatal: not a git repository (or any of the parent directories): .git
+##1st do git init
+git add .
+git status
+
+"""  warning: adding embedded git repository: cnn_classifier
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> cnn_classifier
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached cnn_classifier
+hint:
+hint: See "git help submodule" for more information."""
+************************************
+
+
+
